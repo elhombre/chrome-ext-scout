@@ -1,0 +1,44 @@
+name: Feature Request
+description: Propose an improvement aligned with the project goals
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Please keep requests scoped and concrete.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem are you trying to solve?
+      placeholder: Describe the pain point.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: What should be added or changed?
+      placeholder: Describe the desired behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: Why this matters for MVP users.
+      placeholder: Better discovery speed, fewer clicks, clearer interpretation, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternatives or tradeoffs?
+    validations:
+      required: false
