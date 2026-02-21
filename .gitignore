@@ -1,0 +1,17 @@
+.*
+*.code-workspace
+*.html
+*.lock
+*.sqlite3
+node_modules
+.next
+config.json
+target
+!.ai
+!.cargo
+!.github
+!.gitignore
+!.rustfmt.toml
+!.env.example
+!.yarnrc.yml
+!yarn.lock
